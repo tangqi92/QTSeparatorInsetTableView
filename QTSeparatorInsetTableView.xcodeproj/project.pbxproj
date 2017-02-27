@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35805FF81E63FA470065ACD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35805FF71E63FA470065ACD8 /* main.m */; };
+		35805FFB1E63FA470065ACD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35805FFA1E63FA470065ACD8 /* AppDelegate.m */; };
+		35805FFE1E63FA470065ACD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35805FFD1E63FA470065ACD8 /* ViewController.m */; };
+		358060011E63FA470065ACD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35805FFF1E63FA470065ACD8 /* Main.storyboard */; };
+		358060031E63FA470065ACD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358060021E63FA470065ACD8 /* Assets.xcassets */; };
+		358060061E63FA470065ACD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358060041E63FA470065ACD8 /* LaunchScreen.storyboard */; };
+		358060111E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358060101E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.m */; };
+		3580601C1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3580601B1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3580600D1E63FA470065ACD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35805FEB1E63FA470065ACD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35805FF21E63FA470065ACD8;
+			remoteInfo = QTSeparatorInsetTableView;
+		};
+		358060181E63FA470065ACD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35805FEB1E63FA470065ACD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35805FF21E63FA470065ACD8;
+			remoteInfo = QTSeparatorInsetTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35805FF31E63FA470065ACD8 /* QTSeparatorInsetTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTSeparatorInsetTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35805FF71E63FA470065ACD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35805FF91E63FA470065ACD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35805FFA1E63FA470065ACD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35805FFC1E63FA470065ACD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35805FFD1E63FA470065ACD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		358060001E63FA470065ACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		358060021E63FA470065ACD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		358060051E63FA470065ACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		358060071E63FA470065ACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3580600C1E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSeparatorInsetTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		358060101E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTSeparatorInsetTableViewTests.m; sourceTree = "<group>"; };
+		358060121E63FA470065ACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358060171E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSeparatorInsetTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580601B1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTSeparatorInsetTableViewUITests.m; sourceTree = "<group>"; };
+		3580601D1E63FA470065ACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35805FF01E63FA470065ACD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358060091E63FA470065ACD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358060141E63FA470065ACD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35805FEA1E63FA470065ACD8 = {
+			isa = PBXGroup;
+			children = (
+				35805FF51E63FA470065ACD8 /* QTSeparatorInsetTableView */,
+				3580600F1E63FA470065ACD8 /* QTSeparatorInsetTableViewTests */,
+				3580601A1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests */,
+				35805FF41E63FA470065ACD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35805FF41E63FA470065ACD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35805FF31E63FA470065ACD8 /* QTSeparatorInsetTableView.app */,
+				3580600C1E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.xctest */,
+				358060171E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35805FF51E63FA470065ACD8 /* QTSeparatorInsetTableView */ = {
+			isa = PBXGroup;
+			children = (
+				35805FF91E63FA470065ACD8 /* AppDelegate.h */,
+				35805FFA1E63FA470065ACD8 /* AppDelegate.m */,
+				35805FFC1E63FA470065ACD8 /* ViewController.h */,
+				35805FFD1E63FA470065ACD8 /* ViewController.m */,
+				35805FFF1E63FA470065ACD8 /* Main.storyboard */,
+				358060021E63FA470065ACD8 /* Assets.xcassets */,
+				358060041E63FA470065ACD8 /* LaunchScreen.storyboard */,
+				358060071E63FA470065ACD8 /* Info.plist */,
+				35805FF61E63FA470065ACD8 /* Supporting Files */,
+			);
+			path = QTSeparatorInsetTableView;
+			sourceTree = "<group>";
+		};
+		35805FF61E63FA470065ACD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35805FF71E63FA470065ACD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3580600F1E63FA470065ACD8 /* QTSeparatorInsetTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				358060101E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.m */,
+				358060121E63FA470065ACD8 /* Info.plist */,
+			);
+			path = QTSeparatorInsetTableViewTests;
+			sourceTree = "<group>";
+		};
+		3580601A1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3580601B1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.m */,
+				3580601D1E63FA470065ACD8 /* Info.plist */,
+			);
+			path = QTSeparatorInsetTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35805FF21E63FA470065ACD8 /* QTSeparatorInsetTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358060201E63FA470065ACD8 /* Build configuration list for PBXNativeTarget "QTSeparatorInsetTableView" */;
+			buildPhases = (
+				35805FEF1E63FA470065ACD8 /* Sources */,
+				35805FF01E63FA470065ACD8 /* Frameworks */,
+				35805FF11E63FA470065ACD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTSeparatorInsetTableView;
+			productName = QTSeparatorInsetTableView;
+			productReference = 35805FF31E63FA470065ACD8 /* QTSeparatorInsetTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3580600B1E63FA470065ACD8 /* QTSeparatorInsetTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358060231E63FA470065ACD8 /* Build configuration list for PBXNativeTarget "QTSeparatorInsetTableViewTests" */;
+			buildPhases = (
+				358060081E63FA470065ACD8 /* Sources */,
+				358060091E63FA470065ACD8 /* Frameworks */,
+				3580600A1E63FA470065ACD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3580600E1E63FA470065ACD8 /* PBXTargetDependency */,
+			);
+			name = QTSeparatorInsetTableViewTests;
+			productName = QTSeparatorInsetTableViewTests;
+			productReference = 3580600C1E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		358060161E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358060261E63FA470065ACD8 /* Build configuration list for PBXNativeTarget "QTSeparatorInsetTableViewUITests" */;
+			buildPhases = (
+				358060131E63FA470065ACD8 /* Sources */,
+				358060141E63FA470065ACD8 /* Frameworks */,
+				358060151E63FA470065ACD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358060191E63FA470065ACD8 /* PBXTargetDependency */,
+			);
+			name = QTSeparatorInsetTableViewUITests;
+			productName = QTSeparatorInsetTableViewUITests;
+			productReference = 358060171E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35805FEB1E63FA470065ACD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Tang;
+				TargetAttributes = {
+					35805FF21E63FA470065ACD8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3580600B1E63FA470065ACD8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35805FF21E63FA470065ACD8;
+					};
+					358060161E63FA470065ACD8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35805FF21E63FA470065ACD8;
+					};
+				};
+			};
+			buildConfigurationList = 35805FEE1E63FA470065ACD8 /* Build configuration list for PBXProject "QTSeparatorInsetTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35805FEA1E63FA470065ACD8;
+			productRefGroup = 35805FF41E63FA470065ACD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35805FF21E63FA470065ACD8 /* QTSeparatorInsetTableView */,
+				3580600B1E63FA470065ACD8 /* QTSeparatorInsetTableViewTests */,
+				358060161E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35805FF11E63FA470065ACD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358060061E63FA470065ACD8 /* LaunchScreen.storyboard in Resources */,
+				358060031E63FA470065ACD8 /* Assets.xcassets in Resources */,
+				358060011E63FA470065ACD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580600A1E63FA470065ACD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358060151E63FA470065ACD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35805FEF1E63FA470065ACD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35805FFE1E63FA470065ACD8 /* ViewController.m in Sources */,
+				35805FFB1E63FA470065ACD8 /* AppDelegate.m in Sources */,
+				35805FF81E63FA470065ACD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358060081E63FA470065ACD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358060111E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358060131E63FA470065ACD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580601C1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3580600E1E63FA470065ACD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35805FF21E63FA470065ACD8 /* QTSeparatorInsetTableView */;
+			targetProxy = 3580600D1E63FA470065ACD8 /* PBXContainerItemProxy */;
+		};
+		358060191E63FA470065ACD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35805FF21E63FA470065ACD8 /* QTSeparatorInsetTableView */;
+			targetProxy = 358060181E63FA470065ACD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35805FFF1E63FA470065ACD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358060001E63FA470065ACD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		358060041E63FA470065ACD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358060051E63FA470065ACD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3580601E1E63FA470065ACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3580601F1E63FA470065ACD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358060211E63FA470065ACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTSeparatorInsetTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.itangqi.QTSeparatorInsetTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		358060221E63FA470065ACD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTSeparatorInsetTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.itangqi.QTSeparatorInsetTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		358060241E63FA470065ACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTSeparatorInsetTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.itangqi.QTSeparatorInsetTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTSeparatorInsetTableView.app/QTSeparatorInsetTableView";
+			};
+			name = Debug;
+		};
+		358060251E63FA470065ACD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTSeparatorInsetTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.itangqi.QTSeparatorInsetTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTSeparatorInsetTableView.app/QTSeparatorInsetTableView";
+			};
+			name = Release;
+		};
+		358060271E63FA470065ACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QTSeparatorInsetTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.itangqi.QTSeparatorInsetTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QTSeparatorInsetTableView;
+			};
+			name = Debug;
+		};
+		358060281E63FA470065ACD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QTSeparatorInsetTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.itangqi.QTSeparatorInsetTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QTSeparatorInsetTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35805FEE1E63FA470065ACD8 /* Build configuration list for PBXProject "QTSeparatorInsetTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580601E1E63FA470065ACD8 /* Debug */,
+				3580601F1E63FA470065ACD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358060201E63FA470065ACD8 /* Build configuration list for PBXNativeTarget "QTSeparatorInsetTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358060211E63FA470065ACD8 /* Debug */,
+				358060221E63FA470065ACD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		358060231E63FA470065ACD8 /* Build configuration list for PBXNativeTarget "QTSeparatorInsetTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358060241E63FA470065ACD8 /* Debug */,
+				358060251E63FA470065ACD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		358060261E63FA470065ACD8 /* Build configuration list for PBXNativeTarget "QTSeparatorInsetTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358060271E63FA470065ACD8 /* Debug */,
+				358060281E63FA470065ACD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35805FEB1E63FA470065ACD8 /* Project object */;
+}
