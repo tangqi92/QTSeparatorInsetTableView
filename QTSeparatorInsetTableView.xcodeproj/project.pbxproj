@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		35805FF81E63FA470065ACD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35805FF71E63FA470065ACD8 /* main.m */; };
 		35805FFB1E63FA470065ACD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35805FFA1E63FA470065ACD8 /* AppDelegate.m */; };
-		35805FFE1E63FA470065ACD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35805FFD1E63FA470065ACD8 /* ViewController.m */; };
-		358060011E63FA470065ACD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35805FFF1E63FA470065ACD8 /* Main.storyboard */; };
 		358060031E63FA470065ACD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358060021E63FA470065ACD8 /* Assets.xcassets */; };
 		358060061E63FA470065ACD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358060041E63FA470065ACD8 /* LaunchScreen.storyboard */; };
 		358060111E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358060101E63FA470065ACD8 /* QTSeparatorInsetTableViewTests.m */; };
 		3580601C1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3580601B1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.m */; };
+		3580602B1E63FACC0065ACD8 /* QTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3580602A1E63FACC0065ACD8 /* QTTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +38,6 @@
 		35805FF71E63FA470065ACD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35805FF91E63FA470065ACD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35805FFA1E63FA470065ACD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35805FFC1E63FA470065ACD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35805FFD1E63FA470065ACD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		358060001E63FA470065ACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		358060021E63FA470065ACD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		358060051E63FA470065ACD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		358060071E63FA470065ACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +47,8 @@
 		358060171E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSeparatorInsetTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3580601B1E63FA470065ACD8 /* QTSeparatorInsetTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTSeparatorInsetTableViewUITests.m; sourceTree = "<group>"; };
 		3580601D1E63FA470065ACD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358060291E63FACC0065ACD8 /* QTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTableViewController.h; sourceTree = "<group>"; };
+		3580602A1E63FACC0065ACD8 /* QTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +101,8 @@
 			children = (
 				35805FF91E63FA470065ACD8 /* AppDelegate.h */,
 				35805FFA1E63FA470065ACD8 /* AppDelegate.m */,
-				35805FFC1E63FA470065ACD8 /* ViewController.h */,
-				35805FFD1E63FA470065ACD8 /* ViewController.m */,
-				35805FFF1E63FA470065ACD8 /* Main.storyboard */,
+				358060291E63FACC0065ACD8 /* QTTableViewController.h */,
+				3580602A1E63FACC0065ACD8 /* QTTableViewController.m */,
 				358060021E63FA470065ACD8 /* Assets.xcassets */,
 				358060041E63FA470065ACD8 /* LaunchScreen.storyboard */,
 				358060071E63FA470065ACD8 /* Info.plist */,
@@ -248,7 +245,6 @@
 			files = (
 				358060061E63FA470065ACD8 /* LaunchScreen.storyboard in Resources */,
 				358060031E63FA470065ACD8 /* Assets.xcassets in Resources */,
-				358060011E63FA470065ACD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35805FFE1E63FA470065ACD8 /* ViewController.m in Sources */,
 				35805FFB1E63FA470065ACD8 /* AppDelegate.m in Sources */,
 				35805FF81E63FA470065ACD8 /* main.m in Sources */,
+				3580602B1E63FACC0065ACD8 /* QTTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +307,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		35805FFF1E63FA470065ACD8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				358060001E63FA470065ACD8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		358060041E63FA470065ACD8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -505,6 +493,7 @@
 				358060221E63FA470065ACD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		358060231E63FA470065ACD8 /* Build configuration list for PBXNativeTarget "QTSeparatorInsetTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +502,7 @@
 				358060251E63FA470065ACD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		358060261E63FA470065ACD8 /* Build configuration list for PBXNativeTarget "QTSeparatorInsetTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +511,7 @@
 				358060281E63FA470065ACD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

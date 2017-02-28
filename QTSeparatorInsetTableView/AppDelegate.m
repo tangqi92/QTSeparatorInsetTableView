@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "QTTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    QTTableViewController *tableViewController = [[QTTableViewController alloc] init];
+    tableViewController.title = @"QTSeparatorInsetTableView";
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
+    self.window.rootViewController = navigationController;
+
     return YES;
 }
 

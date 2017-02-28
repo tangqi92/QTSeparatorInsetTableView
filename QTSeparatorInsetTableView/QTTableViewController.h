@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QTTableViewController.h
 //  QTSeparatorInsetTableView
 //
 //  Created by Tang Qi on 27/02/2017.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface QTTableViewController : UIViewController
 
 @end
-
